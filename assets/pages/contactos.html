@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/contactos.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <title>Proyect 3D</title>
+</head>
+
+
+<body>
+    <main>
+        <div class="container-form">
+            <h1>Contáctame</h1>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Dirección de correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <div class="contact-button">
+                    <button type="submit" class="btn-form">Send</button>
+                </div>
+            </form>
+        </div>
+
+        <div id="mensaje-guardado" class="mensaje-guardado"><span>¡se guardó con exito!</span></div>
+
+    </main>
+    <script src="../scripts/template.js"></script>
+</body>
+
+</html>
