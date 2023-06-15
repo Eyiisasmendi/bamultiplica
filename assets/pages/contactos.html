@@ -22,19 +22,28 @@
                     <input type="text" id="name" name="name" required>
                 </div>
                 <div class="form-group">
+                    <label  for="last name">Apellido:</label>
+                    <input class="controles" type="text" name="last name" required>
+                </div>
+                <div class="form-group">
                     <label for="email">Dirección de correo electrónico:</label>
                     <input type="email" id="email" name="email" required>
                 </div>
+                <div  class="form-group">
+                    <label for="tel">Teléfono</label>
+                    <input class="controles" type="number" name="number">
+                </div>
                 <div class="form-group">
                     <label for="message">Mensaje:</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <textarea id="message" name="message" cols="38" rows="7" placeholder="Escribe tu comentario" required></textarea>
                 </div>
                 <div class="contact-button">
-                    <button type="submit" class="btn-form">Send</button>
+                    <button type="submit" class="btn-form" value="Enviar">Enviar</button>
                 </div>
             </form>
-        </div>
+            
 
+        </div>
         <div id="mensaje-guardado" class="mensaje-guardado"><span>¡se guardó con exito!</span></div>
 
     </main>
